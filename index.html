@@ -1,1 +1,35 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My SaaS App Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        /* Custom styling for each section */
+        .section { text-align: center; font-size: 24px; }
+    </style>
+</head>
+<body>
+
+<div id="fullpage">
+    <div class="section">Welcome to Our SaaS App</div>
+    <div class="section">Features</div>
+    <div class="section">Pricing</div>
+    <div class="section">Contact Us</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js" integrity="sha384-4rPiiBASJIB2H1rH93RfAz4Ck5hTYNXIVbVYsLOBn7VI/+8f2p7bL/ot9TptF8kJ" crossorigin="anonymous"></script>
+<script>
+    new fullpage('#fullpage', {
+        // fullpage.js options
+        autoScrolling:true,
+        scrollHorizontally: true,
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Home', 'Features', 'Pricing', 'Contact'],
+        showActiveTooltip: true,
+    });
+</script>
+</body>
+</html>
