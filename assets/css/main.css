@@ -3503,10 +3503,11 @@ input, select, textarea {
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
+				text-align: left;
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 5em;
 					margin: 0;
 				}
 
@@ -3518,10 +3519,10 @@ input, select, textarea {
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
+				height: 24em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				width: 24em;
 			}
 
 				#banner .content .image img {
@@ -3656,7 +3657,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1040px) {
 
 		/* Basic */
 
@@ -3853,12 +3854,12 @@ input, select, textarea {
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 3em;
 					}
 
 					#banner .content .image {
-						height: 9em;
-						width: 9em;
+						height: 16em;
+						width: 16em;
 					}
 
 		/* Nav */
