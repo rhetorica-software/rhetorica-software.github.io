@@ -1,8 +1,3 @@
-# README
+# OLD REPO - NO LONGER IN USE
 
-Test Github Page for Rhetorica
-
-Sites of interest:
-
-- <https://html5up.net/> Modern and good looking HTML5 site templates
-- <https://unsplash.com/> Free HD images with permissable license
+This repo was previously used to manage the griffin website via Netlify, but has since been replaced by a different repo <https://github.com/rhetorica-software/griffin-website>.
